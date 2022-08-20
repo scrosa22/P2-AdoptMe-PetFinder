@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    /* margin: 0;
+    padding: 0; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    /* background-color: grey; */
+    padding: 40px ;
+}
+
+.slide-content{
+    /* background-color: red; */
+    height: max-content;
+}
+
+.card-content{
+    
+    /* background-color: yellow; */
+    max-height: max-content;
+}
+
+.swiper-slide {
+    height: auto;
+    /* max-height: 700px; */
+    max-width: 340px;
+    /* align-self: stretch; */
+}
+
+/* .card{
+    max-width: 340px;
+    height: auto;
+    max-height: max-content;
+} */
+
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pToggle{
+    display: none;
+}
+
+.swiper-button-next{
+    right: 0;
+}
+
+.swiper-button-prev{
+    left: 0;
+}
+
+.contact-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.contact-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
